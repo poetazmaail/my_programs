@@ -1,0 +1,1 @@
+print("When thou singest, songs are beautiful!")
