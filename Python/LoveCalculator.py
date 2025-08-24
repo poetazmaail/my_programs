@@ -21,3 +21,12 @@ LOVE = l+o+v+e
 love_score = str(TRUE) + str(LOVE)
 
 print(f"Your love score is {love_score}")
+
+love_scor = int(love_score)
+
+if love_scor < 10:
+    print(f"{name2} is not meant for thee.")
+elif love_scor > 21:
+    print(f"{name1}, {name2} is your future wife inshallah!") 
+else:
+    print("It's complicated")
