@@ -9,4 +9,4 @@ while number > 0:
     reverse = reverse * 10 + digit
     number //= 10
 print("Sum of digits is: ", sum)
-print("Palindrom: ","Yes" if number == reverse else "No")
+print("Palindrom: ","Yes" if original == reverse else "No")
